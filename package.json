@@ -1,0 +1,21 @@
+{
+  "name": "19mayo",
+  "version": "1.0.0",
+  "description": "Tutorial 19mayo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cypress:runChrome": "cypress run --browser chrome --spec cypress/e2e/tests/instantGaming.cy.js",
+    "cypress:runChromeHeadless": "cypress run --headless --browser chrome --spec cypress/e2e/tests/instantGaming.cy.js"
+  },
+  "keywords": [
+    "npm",
+    "cypress"
+  ],
+  "author": "Alex",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.12.0"
+  }
+}
